@@ -107,6 +107,21 @@ data-warehouse-project/
 
 ---
 
+## 📂 How to Explore the Project
+
+To understand the complete Data Warehouse pipeline:
+
+1. Open the `source` folder.
+2. Review the SQL scripts in the following order:
+
+- `Bronze_and_silver.sql`
+- `Loading_Silver_Layer.sql`
+- `Data_Quality_Check.sql`
+- `Gold_Layer.sql`
+- `Final_datasets.sql`
+
+Each SQL file represents a different stage of the ETL process, from loading raw data to creating the final analytical datasets.
+
 ## 📄 License
 
 This project is open source and available for learning and reference purposes.
